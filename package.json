@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "name": "testia",
+  "version": "1.0.0",
+  "description": "jokut",
+  "main": "index.js",
+  "author": "maupi",
+  "license": "MIT"
+}
