@@ -9,7 +9,7 @@ app.get("/",function(req,res){
 });
 app.use("/client",express.static(__dirname + "/client"));
 
-serv.listen(2000);
+serv.listen(PORT, () => console.log(`Listening on ${ PORT }`));
 
 var SOCKET_LIST = {};
 var PLAYER_LIST = {};
